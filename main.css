@@ -1,0 +1,79 @@
+/* Type Selector */
+body {
+  background-image: url("/photo-1687226013074-5d59ffeb2625.avif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: red;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.7rem;
+}
+
+.summary {
+  font-size: 1.7rem;
+}
+
+/* ID SELECTOR */
+#zen-preamble {
+  background-color: #f2f2f2;
+}
+
+/* Attribute Selector */
+a[href="/215/"] {
+  text-decoration: none;
+}
+
+/* Pseudo Class Selector */
+h3:hover {
+  color: aqua;
+}
+
+/* descendant selector */
+div p {
+  font-weight: bold;
+}
+
+/* Child Selector */
+ul > li {
+  list-style-type: square;
+}
+
+/* adjacent sibling selector */
+h1 + h2 {
+  margin-top: 10px;
+}
+
+/* general sibling selector */
+h3 ~ p {
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.4rem;
+}
+
+header {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 10px;
+}
